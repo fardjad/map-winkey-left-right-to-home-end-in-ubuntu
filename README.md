@@ -1,4 +1,4 @@
-# Map WinKey+Left/Right to Home and End keys in Ubuntu
+# Map WinKey+Left/Right to Home/End in Ubuntu
 
 ## Description
 
@@ -11,11 +11,11 @@ WinKey(Super)+Left/Right to Home and End keys.
 directory
 2. Copy/Create a symlink to **01-xkb** to/in **/etc/X11/Xsession.d/** and do 
 `sudo chown root:root /etc/X11/Xsession.d/01-xkb`
-
 3. Restart X session
 
 ## Credits
 
 http://unix.stackexchange.com/questions/65434/map-superleftright-to-home-end
+
 http://madduck.net/docs/extending-xkb/
 
