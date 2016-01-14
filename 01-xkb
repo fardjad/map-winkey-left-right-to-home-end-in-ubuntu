@@ -1,0 +1,6 @@
+# load the keyboard definitions
+XKBDIR="$HOME/.xkb"
+XKBMAPFILE="$XKBDIR/keymap/mykbd"
+[[ -r "$XKBMAPFILE" ]] && xkbcomp -I"$XKBDIR" "$XKBMAPFILE" "${DISPLAY%%.*}"
+unset XKBDIR XKBMAPFILE
+
